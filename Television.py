@@ -6,15 +6,15 @@ class Television:
         self.channel_list = []
         self.volume = 20
 
-    def increase_volume(self, valor):
-        if self.volume+ valor <= 100:
-            self.volume += valor
+    def increase_volume(self, value):
+        if self.volume+ value <= 100:
+            self.volume += value
         else:
             self.volume = 100
 
-    def decrease_volume(self,valor):
-        if self.volume- valor >= 0:
-            self.volume -= valor
+    def decrease_volume(self,value):
+        if self.volume- value >= 0:
+            self.volume -= value
         else:
             self.volume = 0
 
